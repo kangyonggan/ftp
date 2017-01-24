@@ -8,5 +8,6 @@
 	   http://www.springframework.org/schema/mvc/spring-mvc.xsd">
 
     <mvc:resources mapping="/upload/**" location="/WEB-INF/upload/" cache-period="31556926"/>
+    <mvc:resources mapping="/rss/**" location="/WEB-INF/rss/" cache-period="31556926"/>
 
 </beans>
